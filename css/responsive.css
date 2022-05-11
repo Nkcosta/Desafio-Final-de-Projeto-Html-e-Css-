@@ -1,0 +1,25 @@
+@media screen and (max-width: 700px) {
+    header .container{
+    display: flex;
+    flex-direction: column;
+}
+}
+
+
+@media screen and (main-widht: 1000px){
+    .botoes{
+        width: 50%;
+        margin-top: 5px; 
+        width: 190px;
+    } 
+}
+
+@media screen and (min-width: 1000px){
+    .descricao{
+width: 50%;
+    }
+}
+
+
+/*Regra de media para tela screem, e ela só vai ser aplicada quando o min de largura for 1000px. Qd a tela tiver no min 1000px, a descrição terá um width de no maximo 50% do tamanho disponível na tela.
+*/
