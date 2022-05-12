@@ -127,11 +127,11 @@ main div .paragrafo {
         color: var(--lilas-secundary-dark);
         background-color: var(--lilas-secundary);
         border: none;
-        padding: 15px 50px;
+        padding: 25px 60px;
         font-size: 16px;
         cursor: pointer;
         transition: .3s ease all;
-        border-radius: 2px;
+        border-radius: 5px;
         text-align: center;
         margin-left: 50px;
         margin-top: 30px;
@@ -142,6 +142,7 @@ main div .paragrafo {
         background-color: #8E44AD;
         color: #D2B4DE;
     }
+    
 
     button i .fa-solid {
         margin-left: 5px;
@@ -186,6 +187,31 @@ font-size: 40px;
     .section-carousel {
         padding-bottom: 80px;
         background-color: var(--cinza-dark);
+    }
+
+.sobre-nos {
+        background-color: var(--cinza-dark);
+        color: var(--lilas-secundary);
+        font-family: 'Roboto', Segoe UI;
+        padding: 10px 120px ;
+        padding-bottom: 30px;
+
+    }
+
+    .titulo-sobrenos{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    .texto-sobrenos1 {
+        padding-top: 20px;
+        font-size: 25px;
+    }
+
+    .texto-sobrenos2 {
+        font-size: 25px;
+        padding-bottom: 30px;
     }
 
     /*SECTION RODAPÉ*/
